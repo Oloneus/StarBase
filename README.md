@@ -13,8 +13,8 @@ greetings
 Olo
 
 
-**Avoidance**
+>**Avoidance**
 > https://github.com/Oloneus/StarBase/releases/tag/AS_v1.0
 
-**Approach**
+>**Approach**
 > https://github.com/Oloneus/StarBase/releases/tag/AP_v1.0
