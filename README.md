@@ -10,7 +10,7 @@ I do not have any programming background and am just fiddling around with Yolol 
 
 So long
 greetings
-Olo
+- Olo
 
 
 **Avoidance**
