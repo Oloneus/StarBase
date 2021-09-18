@@ -18,3 +18,6 @@ Olo
 
 **Approach**
 > https://github.com/Oloneus/StarBase/releases/tag/AP_v1.0
+
+**Fuel Time and Propellant Usage**
+> https://github.com/Oloneus/StarBase/releases/tag/FP_v1.0
