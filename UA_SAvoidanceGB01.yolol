@@ -1,0 +1,10 @@
+m=1000 c=100
+
+:sav=0 goto3+:avoid*(:aR1<1)
+:sav=1 j=0
+j+=1 goto5+(j>5)-5*:aR1
+:aMl=(:sl1+:sl2+:sl3+:sl4+:sl5+:sl6+:sl7)/7<m
+:aMu=(:su1+:su2+:su3+:su4+:su5+:su6+:su7)/7<m
+:cruise+=c*(:sA0<m)*:avoid goto1+5*:avoid*(:aR1<1)
+// Avoidance 01 - by Oloneus
+// GrumbleBee

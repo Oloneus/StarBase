@@ -1,0 +1,9 @@
+c=100
+:aMd=0 :aMu=0 :amr=0 :aml=0 :FcuUpDown=0 :FcuLeftRight=0
+:sav=0 goto3+:avoid*(:aR1<1)
+:sav=1 j=0
+j+=1 goto5+(j>5)-5*:aR1
+:FcuRightLeft=c*(2*:aMr-:aMl) :FcuUpDown=c*(:aMu-2*:aMd)
+:cruise+=c*(2<(:amd+:amu+:aml+:amr))*:avoid goto1+5*:avoid*(:aR1<1)
+// Avoidance - by Oloneus
+// WorkerBee / GrumbleBee
