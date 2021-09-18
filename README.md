@@ -9,9 +9,7 @@ I do not have any programming background and am just fiddling around with Yolol 
 > All scripts were written using **Visual Studio Code** and the Yolol Plugin by **DBaumgarten**
 
 So long
-greetings
-- Olo
-
+Olo
 
 **Avoidance**
 > https://github.com/Oloneus/StarBase/releases/tag/AS_v1.0
