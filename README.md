@@ -11,6 +11,10 @@ I do not have any programming background and am just fiddling around with Yolol 
 So long
 Olo
 
+**This is a hobby of mine, and I enjoy creating these scripts for my ships**
+If you intend to use them on your creations, I'd be glad to see some income in my CV. It took me serveral hundred hours to make these work as intendend. So for any Tips, send your **Thank You Credits** in game to **Oloneus**.
+Thank you.
+
 **Avoidance**
 > https://github.com/Oloneus/StarBase/releases/tag/AS_v1.0
 
