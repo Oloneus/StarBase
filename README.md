@@ -1,11 +1,12 @@
 # StarBase
-Scripts for Starbase by Oloneus
+Scripts for **Starbase** by Oloneus
 
-This is a repository of scripts for Yolol. All have been developed by my self and I've tried to debug them as much as I could.
+This is a repository of scripts for **Yolol**. All have been developed by my self and I've tried to debug them as much as I could.
 
 I do not have any programming background and am just fiddling around with Yolol for StarBase by Frozenbyte.
 
-if you have any questions or want to contribute, feel free to add a pull request or add an issue.
+> if you have any questions or want to contribute, feel free to add a pull request or add an issue.
+> All scripts were written using **Visual Studio Code** and the Yolol Plugin by **DBaumgarten**
 
 So long
 greetings
