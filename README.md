@@ -19,3 +19,6 @@ Olo
 
 **Fuel Time and Propellant Usage**
 > https://github.com/Oloneus/StarBase/releases/tag/FP_v1.0
+
+**Generator**
+> https://github.com/Oloneus/StarBase/releases/tag/GN_v1.0
