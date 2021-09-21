@@ -21,7 +21,7 @@ All Scripts are -  licensed under MIT
 > Check it out here: https://store.steampowered.com/app/454120/Starbase/
 
 **Avoidance**
-> https://github.com/Oloneus/StarBase/releases/tag/AS_v1.0
+> https://github.com/Oloneus/StarBase/releases/tag/AS_v1.2
 
 **Approach**
 > https://github.com/Oloneus/StarBase/releases/tag/AP_v1.0
