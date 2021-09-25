@@ -24,7 +24,7 @@ All Scripts are -  licensed under MIT
 > https://github.com/Oloneus/StarBase/releases/tag/AS_v1.2
 
 **Approach**
-> https://github.com/Oloneus/StarBase/releases/tag/AP_v1.0
+> https://github.com/Oloneus/StarBase/releases/tag/AP_v1.2
 
 **Fuel Time and Propellant Usage**
 > https://github.com/Oloneus/StarBase/releases/tag/FP_v1.0
