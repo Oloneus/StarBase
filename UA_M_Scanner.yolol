@@ -2,11 +2,11 @@ d=100 f=172800 v=20 s="" i=0 j=0 :Os1=0 :Os1W=0 :Os1C=2
 a="Scan\n- Offline -" b="\nScanning" c="\nPlease Wait" e=" Stk"
 :Os1On=0 :Os1Reset=1 :Scanner=a goto3+:Rf1*(:Os1<1)+2*:Os1*(:Rf1<1)
 :Os1On=0 :Os1Reset=1 :Scanner=a i=0 j=0 goto1+3*:Rf1+:Rf1*(:R1<d)
-:Scanner=b :Os1On=1 i+=1 goto5+2*(i>1)
-:Scanner=b j=0 i+=1 :Os1Reset=1 goto6+(i>1)
-:Scanner=b+"." i=0 j+=1 :Os1Chk=1 goto7+(j>1)-8*(:Os1<1)*(:Rf1<1)
-:Scanner=b+".." j=0 i+=1 :Os1Chk=1 goto8+(i>1)-9*:Rf1*(:R1>d)
-n=1/(:Os1Result<1) :Scanner=b+"..." i=0 j+=1 goto9-3*(j>1)
+:Scanner=b :Os1On=1 i++ goto5+2*(i>1)
+:Scanner=b j=0 i++ :Os1Reset=1 goto6+(i>1)
+:Scanner=b+"." i=0 j++ :Os1Chk=1 goto7+(j>1)-8*(:Os1<1)*(:Rf1<1)
+:Scanner=b+".." j=0 i++ :Os1Chk=1 goto8+(i>1)-9*:Rf1*(:R1>d)
+n=1/(:Os1Result<1) :Scanner=b+"..." i=0 j++ goto9-3*(j>1)
 :Scanner=c :Os1Index=0 s="\n"
 i=0 j=0
 cr="Crystal" o="Ore" // language Settings
@@ -17,4 +17,4 @@ cr="Crystal" o="Ore" // language Settings
 s=:Scanner
 n=1/(:Os1index<:Os1Result) goto16
 :Os1Reset=1 :Os1W=1 :Os1C=1 :Os1=1
-s="\n" j+=1 gotov-v*(:Os1<1)-v*:Rf1*(:R1>d)*(j>59)-v*(j>299)
+s="\n" j++ gotov-v*(:Os1<1)-v*:Rf1*(:R1>d)*(j>59)-v*(j>299)
