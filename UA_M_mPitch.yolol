@@ -1,8 +1,8 @@
 //
 // Turret Pitch Calc
 // by Oloneus - licensed under MIT
-a=0.406 b=-12.823 i=1 j=0 n=1 pt=-4.9 v=20 z=20
-j+=1 goto5+2*(j>10)+v*:mpw
+a=0.406 b=-12.823 i=1 j=0 n=1 pt=-4.906 v=20 z=20
+j++ goto5+2*(j>10)+v*:mpw
 //
 :mPt=pt goto8+(:mPc==:mPt)+v*(:lsr<1)
 :mM1=1 goto10+v*(:lsr<1)
