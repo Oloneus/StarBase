@@ -1,5 +1,5 @@
 :mRfL=1 n=0
-n+=1 goto2+(n>5)  // Turret Roll Left Calc
+n++ goto2+(n>5)  // Turret Roll Left Calc
 n=0  // by Oloneus - licensed under MIT
 c=-0.416 d=13.131 rl=4.801 v=20 z=20 s=abs(0+q) goto4+(:mRL>0)+2*i
 q-=180*(:mRL>2.2) i=1 goto4+v*:mpw
