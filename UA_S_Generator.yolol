@@ -1,0 +1,13 @@
+gv=80 // dv generator curve adjustment (10-100)
+p=9875 q=9950 // hysteresis adjust
+//////////////////// No Changes beyond this line /////////////////////
+bt2=9925 bt3=9900 bt4=9875 s=1.2 v=1.1
+c=100 t=10000 m=20 :GenReset=0
+:Fr01=f*s :Fr02=f*v*(bt<bt2) :Fr03=f*(bt<bt3) :Fr04=f*(bt<bt4)
+bt=:StoredBatteryPower goto6+2*(bt<p)+3*(bt>q)-m*:GenReset
+f=(t-:StoredBatteryPower)/gv goto6
+f=0 goto6
+
+// Generator - By Oloneus
+
+// licensed under MIT
