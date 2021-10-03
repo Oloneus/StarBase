@@ -1,6 +1,6 @@
 //////////////////// No Changes beyond this line /////////////////////
 i=0 j=0 m=50
-:Apr=0 :aR1=0 :Os1=0 :Lsr=0 i+=1 goto5+(i>15)
+:Apr=0 :aR1=0 :Os1=0 :Lsr=0 i++ goto5+(i>15)
 :Apr=0 :aR1=0 :Os1=0 :Lsr=0
 :Apr=0 :aR1=0 :Os1=0 :Lsr=0 j=6
 // Systems
