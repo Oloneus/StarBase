@@ -33,4 +33,4 @@ All Scripts are -  licensed under MIT
 > https://github.com/Oloneus/StarBase/releases/tag/FP_v1.0
 
 **Generator**
-> https://github.com/Oloneus/StarBase/releases/tag/GN_v1.0
+> https://github.com/Oloneus/StarBase/releases/tag/GN_v1.2
