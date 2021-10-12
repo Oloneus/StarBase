@@ -15,6 +15,6 @@ z/=:Apr*r*(d*d>g+e*e>1) :FcuForward=o/t :FcuBackward=-o*t gotov-b*:apr
 gotof+(:Apr<1)*v+:lsr
 :Apr=0 gotov
 // Shutdown  //  Approach - by Oloneus - licensed under MIT
-:FcuForward=0 :FcuBackward=0 :aR1-=1*(:aR1>0) u=0 :ApW=0 :ApC=3
-n/=1-:lsr :Cruise=100 :aLR=l :Turtle=n :FcuGMP=c
+:FcuForward=0 :FcuBackward=0 :aR1-=(:aR1>0) u=0 :ApW=0 :ApC=3 :aLR=l
+n/=1-:lsr :Cruise=100 :Turtle=n :FcuGMP=c
 gotov-v*:Apr*(u<1)-2*u //Approach off
