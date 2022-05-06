@@ -1,9 +1,9 @@
 :avm=1 c=100 m=1000 p=750
 :FcuUpDown=0 :FcuLeftRight=0
-:sav=0 j=0 goto3+:avd*(:aR1<1)
-:sav=1 j++ goto4+(j>5)-5*:aR1
+:sav=0 j=0 goto3+:avd
+:sav=1 j++ goto4+(j>5)
 :avm=6
-:cruise+=c*((:sA0<m)+(:asu+:asd+:asr+:asl)/4<p) goto6*:avd*(:aR1<1)
+:cruise+=c*((:sA0<m)+(:asu+:asd+:asr+:asl)/4<p) goto6*:avd
 
 // Avoidance - by Oloneus
 // WorkerBee / GrumbleBee
