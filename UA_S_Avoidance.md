@@ -15,8 +15,8 @@
 > - RangeFinderDistance:
 > - **asu** // Avoid Sensor upwards movement
 > - **asd** // Avoid Sensor downwards movement
-> - **asl** // Avoid Sensor left movement
-> - **asr** // Avoid Sensor right movement
+> - **asl** // Avoid Sensor right movement
+> - **asr** // Avoid Sensor left movement
 
 **Memory chip**
 
