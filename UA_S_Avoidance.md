@@ -17,6 +17,7 @@
 > - **asd** // Avoid Sensor downwards movement
 > - **asl** // Avoid Sensor right movement
 > - **asr** // Avoid Sensor left movement
+> - **sA0** // Avoid Sensor Central sector
 
 **Memory chip**
 
