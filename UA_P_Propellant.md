@@ -22,12 +22,6 @@
 > // Propellant Usage - by Oloneus
 
 
-**Memory Chip**
-> x == // set by ISAN2.5
-> y == // set by ISAN2.5
-> z == // set by ISAN2.5
-> s == // set by ISAN2.5
-
-**ISAN2.5**
-**advanced Yolol Chip**
-> // ISAN2.5 - modified by Oloneus, original by **The Collective**
+**Speedometer**
+> Variables necessary
+> :Speed
