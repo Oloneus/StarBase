@@ -6,7 +6,7 @@ pr="\nPropellant\n" ph=" kP/h\n" ra="\nest.Range" km=" km"
 pm=:GasNetworkStoredResource
 // Propellant Calc
 pa=(pa*p+pm-:GasNetworkStoredResource)/q pm=:GasNetworkStoredResource
-sa=(sa*p+:s)/q
+sa=(sa*p+:speed)/q
 pt=pm/pa sr=sa*pt/m
 pa=pa/m*m  sr=sr/m*m
 :Current=pr+pa+ph+ra+br+sr+km goto8
