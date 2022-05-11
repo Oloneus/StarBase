@@ -1,7 +1,0 @@
-goto1+(:fcubackward>0)*(:fcuforward>0)*(:Apr<1)
-:FcuForward=0 :cruise=100 goto1
-
-// DecelerationScript - by Oloneus
-// WorkerBee / GrumbleBee
-
-// licensed under MIT
