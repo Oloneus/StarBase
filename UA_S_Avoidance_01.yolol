@@ -1,0 +1,11 @@
+m=1000 c=100 goto:avm*(:aR1<1)
+
+
+
+
+u=(:asu<m)*(d<1) d=(:asd<m)*(u<1) :FcuUpDown=c*(u-2*d) goto:avm
+
+// Avoidance 01 - by Oloneus
+// WorkerBee / GrumbleBee
+
+// licensed under MIT

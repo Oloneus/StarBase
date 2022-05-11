@@ -1,0 +1,7 @@
+c=100 n="\n" r="\nR:" p="\nP:" y="\nY:" v="N/A"
+g="Gyroscope" w="\n! WARNING !" f=n+n+g+" calibration required!"
+:Horizon=n+p+:pitch/c*c+r+(-1*:roll)/c*c+y+:yaw/c*c goto3
+j/=(v==:Pitch) :Horizon=w+f goto3
+j/=(v==:Roll) :Horizon=w+f goto3
+j/=(v==:Yaw) :Horizon=w+f goto3
+goto3

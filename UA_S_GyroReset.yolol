@@ -1,0 +1,20 @@
+//////////////////// No Changes beyond this line //////////////////
+n="\n" g="Gyroscope" v="N/A" w="\n! WARNING !" u="\n-Offline-\n"
+f=n+n+g+" calibration required!" h=" calibrated" z=20 i=0 k=0
+p="please wait" q="reset now" o="calibrating" r="\n-Online-\n"
+:GyroReset02=0 :GyroReset=r+n+g+h j/=(v==:Pitch) :GyroReset=w+f
+:GyroReset01=0 j/=(v==:Roll) :GyroReset=w+f
+:GyroReset01=0 j/=(v==:Yaw) :GyroReset=w+f
+:GyroReset01=0 goto8+:GyroReset02
+:GyroReset=n+o+n+n+p i++ goto9+(i>24)-z*:GyroReset01
+i=0 :GyroReset01=1 :GyroReset02=0
+:GyroReset=n+o+n+n+q i++ goto12-z*(i>49)-:GyroReset01
+i=0 :GyroCalibrate=1 :GyroReset01=1 :GyroC=2 :GyroReset=n+o
+
+// sGyroReset Script - by Oloneus
+// WorkerBee / GrumbleBee
+
+// licensed under MIT
+
+:GyroReset01=0 :GyroReset02=0 :GyroC=0 :GyroReset=u+n+g+h
+:GyroReset01=0 gotoz*(v!=:Pitch)*(v!=:Roll)*(v!=:Yaw)*(1-:GyroReset02)

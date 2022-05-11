@@ -1,0 +1,7 @@
+//////////////////// No Changes beyond this line /////////////////////
+:FcuBackward=-1*:FcuForward goto2
+
+// Systems Script 04 - by Oloneus
+// WorkerBee / GrumbleBee
+
+// licensed under MIT
