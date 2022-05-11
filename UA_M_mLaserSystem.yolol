@@ -1,8 +1,0 @@
-//////////////////// No Changes beyond this line /////////////////////
-fl=3000 m=1500 bt=:StoredBatteryPower<m
-:mpw=((:fc01<fl)+(:fc02<fl)+(:fc03<fl)+(:fc04<fl)+2*bt)>1 goto2
-
-// mLaser System Script - by Oloneus
-// WorkerBee / GrumbleBee
-
-// licensed under MIT
