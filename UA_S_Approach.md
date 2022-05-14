@@ -2,9 +2,6 @@
 
 set up in the following order !
 
-Lever FcuBackward
-> - LeverCenteringSpeed -->"**alr**"'
-
 Lever FcuForward
 > - LeverCenteringSpeed -->"**cruise**"'
 
