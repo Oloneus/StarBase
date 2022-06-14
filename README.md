@@ -20,17 +20,5 @@ All Scripts are -  licensed under MIT
 **Starbase** is a game developed by **FrozenByte**
 > Check it out here: https://store.steampowered.com/app/454120/Starbase/
 
-**WorkerBee / GrumbleBee**
-> All Scripts for my WorkerBee and GrumbleBee can be found in the main branch.
-
-**Avoidance**
-> https://github.com/Oloneus/StarBase/releases/tag/AS_v1.2
-
-**Approach**
-> https://github.com/Oloneus/StarBase/releases/tag/AP_v1.2
-
-**Fuel Time and Propellant Usage**
-> https://github.com/Oloneus/StarBase/releases/tag/FP_v1.0
-
-**Generator**
-> https://github.com/Oloneus/StarBase/releases/tag/GN_v1.2
+**WorkerBee / GrumbleBee / SumseBiene**
+> All Scripts for my ships can be found in the main branch in their respective folders.
