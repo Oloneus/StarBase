@@ -1,0 +1,20 @@
+n=0 k=1 c=10 v=20 p=3500 r=5000 q=6500 gotoc+v*(:mLa<1)
+
+
+
+
+
+
+
+
+b=:StoredBatteryPower k=k*(b>p)OR(b>r) j=j*(b>r)OR(b>q)
+:mRm=k*:mLa :mLm=j*:mLa gotoc*:mLa
+
+
+
+
+// Laser Pulse Control
+// by Oloneus - licensed under MIT
+
+// Laser Off
+:mRm=0 :mLm=0 gotov*(:mLa<1)

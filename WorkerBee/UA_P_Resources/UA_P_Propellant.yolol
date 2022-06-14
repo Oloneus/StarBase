@@ -1,0 +1,14 @@
+// Propellant Usage - by Oloneus
+p=14 q=15 c=100 m=1000
+br="\n"
+pr="\nPropellant\n" ph=" kP/h\n" ra="\nest.Range" km=" km"
+// Initialize Memory
+pm=:GasNetworkStoredResource
+// Propellant Calc
+pa=(pa*p+pm-:GasNetworkStoredResource)/q pm=:GasNetworkStoredResource
+sa=(sa*p+:Speed)/q
+pt=pm/pa sr=sa*pt/m
+pa=pa/m*m  sr=sr/m*m
+:Current=pr+pa+ph+ra+br+sr+km goto8
+
+// licensed under MIT
