@@ -1,0 +1,20 @@
+j=0 m=1e3 f=12 w=18 v=20 c=100 g=1/m :apw=0 :apc=3 gotov-w*:apr
+kp=:akp ki=:aki kd=:akd t=:akt s=:apt :arf=1 u=1 j++ goto2+3*j>1
+// Bootup done
+// Standby
+n=:turtle :apw=0 :apc=3 j=0 :ama=1 goto5+(:ar<:apd)+(:apr<1)*v
+e=0 i=0 p=0 :apw=1 :apc=2 goto6-1*(:ar>:apd)+(:ar<=:apd)*(:apr<1)
+:apw=0 :apc=1 :apr=1 :turtle=:atl goto9
+// Velocity PID
+r=:ar e=r-s d=e-p i+=e/(d-g) i/=2 o=kp*e+ki*i+kd*d p=e r*=r<m goto:apm
+z/=:apr*r*(d*d>g+e*e>1) :fcuforward=o/t :fcubackward=-o*t goto9
+:fcuforward=0 :fcubackward=0 :ama=0 :cruise=c :apw=1 :apc=3 :turtle=n
+gotof+(:apr<1)*v
+//
+//
+// Above :ApD -> back to standby
+:fcuforward=0 :fcubackward=0 goto:apm
+// Shutdown  //  Approach - by Oloneus - licensed under MIT
+:fcuforward=0 :fcubackward=0 :apw=0 :apc=3 :arf=0 u=0
+:cruise=100 :turtle=n :ama=0
+gotov-v*:Apr*(u<1)-2*u //Approach off

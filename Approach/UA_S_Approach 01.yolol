@@ -1,0 +1,8 @@
+//////////////////// No Changes beyond this line /////////////////////
+a=10 b=16 c=100
+
+:apm=5 :arf=:ama j=0 goto4+:ama
+:apm=a j=0 :cruise=0 goto5*:ama+(:arr>:apD)
+:apm=b j++ :cruise=c goto5*:ama+(:arr>:apD)*(j<10)-2*(j>9)
+// UA_S_Approach 01 - by Oloneus
+// licensed under MIT
