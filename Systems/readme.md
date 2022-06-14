@@ -3,7 +3,7 @@
 **Fuel Time**
 > Variables necessary:
 **Fuel Chamber #NN**
-> FuelChamberFuel --> **gF1** **gF2** **gF3** **gF4** /depending on how many FC's
+> FuelChamberFuel --> **gF1** **gF2** **gF3** **gF4** depending on how many FC's
 **Text Panel 24x24**
 > PanelValue --> **Generator**
 
