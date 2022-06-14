@@ -1,0 +1,9 @@
+//////////////////// No Changes beyond this line /////////////////////
+t=50
+
+:booster=:booster*:Turtle>t :FcuFw=:booster*:FcuForward*:bst goto4
+
+// Systems Script 01 - by Oloneus
+// Sumsebiene
+
+// licensed under MIT

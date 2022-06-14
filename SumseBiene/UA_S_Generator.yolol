@@ -1,0 +1,9 @@
+gv=10 // (10-90) the lower gv, the more aggressive the generator
+dv=20 // (0-50) Generator Offset while :Heat is actuve
+//////////////////// No Changes beyond this line /////////////////////
+t=1e4 c=100 p=gv*c
+
+:GeneratorUnitRateLimit=(t-:StoredBatteryPower)/p*c+dv*:heat goto6
+
+// Generator by Oloneus
+// licensed under MIT

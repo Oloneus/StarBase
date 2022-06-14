@@ -1,0 +1,9 @@
+//////////////////// No Changes beyond this line /////////////////////
+c=100
+
+:cruise=:cruise+c*(:FcuBackward>0)*(:cruise!=c) goto4
+
+// Systems Script 04 - by Oloneus
+// Sumsebiene
+
+// licensed under MIT

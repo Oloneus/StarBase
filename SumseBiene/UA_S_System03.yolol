@@ -1,0 +1,10 @@
+//////////////////// No Changes beyond this line /////////////////////
+t=50 p=300
+
+:heat=:heat OR :Booster*:Turtle>t j+=:heat*:turtle<t goto4+j>p
+:heat=0 j=0 goto4
+
+// Systems Script 03 - by Oloneus
+// Sumsebiene
+
+// licensed under MIT

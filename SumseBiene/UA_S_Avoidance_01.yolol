@@ -1,0 +1,12 @@
+m=2000 c=100 goto:av
+goto1
+
+
+
+r=(:adr+:aur)<m*(l<1) l=(:adl+:aul)<m*(r<1) :FcuRightLeft=c*(r-l) 
+u=(:aur+:aul)<m*(d<1) d=(:adr+:adl)<m*(u<1) :FcuUpDown=c*(u-d) goto:av
+
+// Avoidance 01 - by Oloneus
+// WorkerBee / GrumbleBee
+
+// licensed under MITa

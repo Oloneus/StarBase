@@ -1,0 +1,16 @@
+c=100 n="\n" r="\nR:" p="\nP:" y="\nY:" v="N/A" i=0 :GyroW=gw
+g="Gyroscope" w="\n! WARNING !" f=n+n+g+" calibration required!"
+u=n+n+" ! Hold !" s=n+n+"calibrating" q=n+n+" - done -"
+:Horizon=n+p+:pitch/c*c+r+(-1*:roll)/c*c+y+:yaw/c*c goto4+5*:Gyro
+j/=(v==:Pitch) :Horizon=w+f :GyroW=1 goto4+5*:Gyro
+j/=(v==:Roll) :Horizon=w+f :GyroW=1 goto4+5*:Gyro
+j/=(v==:Yaw) :Horizon=w+f :GyroW=1 goto4+5*:Gyro
+goto3
+gw=:GyroW :Horizon=u goto10*:Gyro
+:GyroW=1 i++ goto10*:Gyro+(i>4)
+:Horizon=u+s :GyroW=3 i++ goto11*:Gyro+(i>9)
+:GyroCalibrate=:Gyro
+:GyroW=2 gw=2 :Horizon=q goto13*:Gyro
+
+// GyroNav by Oloneus
+// licensed under MIT

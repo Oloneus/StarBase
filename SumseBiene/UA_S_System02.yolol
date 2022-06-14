@@ -1,0 +1,9 @@
+//////////////////// No Changes beyond this line /////////////////////
+g=20 
+
+:bst=1-:GeneratorUnitRate<g :bsw=1+:bst :Crs=2+7*:bst*:booster goto4
+
+// Systems Script 02 - by Oloneus
+// Sumsebiene
+
+// licensed under MIT
