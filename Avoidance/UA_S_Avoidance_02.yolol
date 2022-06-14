@@ -1,0 +1,11 @@
+m=1000 c=100 goto:avd*:avm
+goto1
+
+
+
+r=(:asr<m)*(l<1) l=(:asl<m)*(r<1) :FcuRightLeft=c*(r-l) goto:avd*:avm
+
+// Avoidance 02 - by Oloneus
+// WorkerBee / GrumbleBee
+
+// licensed under MIT

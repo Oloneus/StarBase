@@ -1,0 +1,14 @@
+:avm=1 c=100 m=4000 p=750
+:FcuUpDown=0 :FcuLeftRight=0
+:sav=0 :AvW=0 j=0 goto3+:avd
+:sav=1 j+=1 goto4+(j>5)
+:avm=6
+f=:FcuForward :AvW=0 goto:avd*(6+((:asu+:asd+:asr+:asl)<m))
+:FcuForward=0 :AvW=1 goto:avd*(8-((:asu+:asd+:asr+:asl)<m))
+:FcuForward=f :AvW=2 goto:avd*(6+((:asu+:asd+:asr+:asl)<m))
+
+
+// Avoidance - by Oloneus
+// WorkerBee / GrumbleBee
+
+// licensed under MIT
