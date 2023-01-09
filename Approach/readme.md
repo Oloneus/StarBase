@@ -40,7 +40,5 @@ Button
 > - ButtonEnableBlink --> "**apw**"
 
 Basic Yolol Chip
-> - aSupportScript
-
-Basic Yolol Chip
-> - aApproachScript
+> - aApproachScript **UA_S_Approach.yolol**
+> - aSupportScript **UA_S_Approach.yolol 01**
