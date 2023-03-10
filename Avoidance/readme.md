@@ -4,9 +4,9 @@
 > - Button 12x24
 
 **Set the following Variables**
-> ButtonState --> "avd"
-> ButtonStyle == **1**
-> ButtonColor --> "avw"
+> - ButtonState --> "avd"
+> - ButtonStyle == **1**
+> - ButtonColor --> "avw"
 
 **Rangefinders**
 > - RangeFinderOnState --> "sav"
