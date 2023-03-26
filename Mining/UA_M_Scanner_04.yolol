@@ -3,7 +3,7 @@
 m=1500
 if j!=0 then j=0 end goto4+:Os1
 j++ goto5*:Os1+j>m
-:Os1=0
+:Os1=0 goto4
 
 // Scanner 04 - by Oloneus
 // written with VisualStudioCode
