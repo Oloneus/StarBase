@@ -1,12 +1,12 @@
 //////////////////// No Changes beyond this line /////////////////////
 b=100 c=172800 i=0 j=0 sc="\n" u="." v=".." w="..."
 q="\nPlease Wait" r=" Stk" s="Scan\n- Offline -" t="\nScanning"
-:Scanner=s :Os1=0 :Os1W=0 :Os1C=2 :OsR=1 at=:ScT
+:Scanner=s :Os1W=0 :Os1C=2 :OsR=1 at=:ScT
 if :ScO!=1 then :ScO=1 end goto5+:ScA
 :Scanner=t j=0 i++ goto6+(i>1)
 :Scanner=t+u i=0 j++ goto7+(j>1)
 :Scanner=t+v j=0 i++ goto8+(i>1)
-n=1/(:ScM<1) :Scanner=t+w i=0 j++ goto:Sca*9-3*(j>1)
+n=1/(:ScM<1) :Scanner=t+w i=0 j++ goto:ScA*9-3*(j>1)
 :ScO=0 :Scanner=q :OsI=0 sc="\n"
 i=0 j=0 a=65 d=20
 cr="Crystal" o="Ore" // language Settings
@@ -16,5 +16,5 @@ cr="Crystal" o="Ore" // language Settings
 :Scanner=sc+"M:"+:OsM-cr-o+"\nV:"+:OsV/c*b+r+"\n" :OsI++
 sc=:Scanner
 n=1/(:OsI<:OsE) goto16
-:OsR=1 :Os1W=1 :Os1C=1 :Os1=1
-j++ gotod-d*((:Os1<1)+:Rf1*(:R1>b)*(j>59)+(j>299)*at)
+:OsR=1 :Os1W=1 :Os1C=1
+gotod*:ScA*:Os1
