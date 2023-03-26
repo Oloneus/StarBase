@@ -6,7 +6,7 @@ goto5+:ScA
 if :OsO!=1 then :OsO=1 end
 :Osc=1 if:OsE!=0 then:OsC=0 :ScM=1 end goto7*:ScA+:ScM
 if :OsO!=0 then :OsO=0 end
-goto9*:ScA
+goto4+5*:ScA
 
 // Scanner 02 - by Oloneus
 // written with VisualStudioCode
