@@ -1,9 +1,9 @@
 //////////////////// No Changes beyond this line /////////////////////
 // Scanner Request
-d=150 j=0 n=19 :ScA=0
+d=150 j=0 n=19 :ScA=0 :Os1=0
 
-s=:ScO*(:Os1 OR :Rf1*(:R1>0)*(:R1<d)) if:ScA!=s then:ScA=s end goto5+s
-
+s=:ScO*(:Os1 OR :Rf1*(:R1>0)*(:R1<d)) goto5+s
+:Os1=1 :ScA=1
 
 j=j+(:R1>d)-j*(:R1<d) ifj>n then:Os1=0 end goto8*:Os1
 
