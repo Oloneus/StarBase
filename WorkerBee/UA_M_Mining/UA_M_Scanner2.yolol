@@ -1,20 +1,12 @@
-b=100 c=172800 d=20 i=0 j=0 :Os1=0 :Os1W=0 :Os1C=2 v=".." w="..."
-q="\nPlease Wait" r=" Stk" s="Scan\n- Offline -" t="\nScanning" u="."
-:OsO=0 :OsR=1 :Scanner=s goto3+:Rf1*(:Os1<1)+2*:Os1*(:Rf1<1)
-:OsO=0 :OsR=1 :Scanner=s i=0 j=0 goto1+3*:Rf1+:Rf1*(:R1<b)
-:Scanner=t j++ :OsO=1 :OsC=1 goto(:OsE<1)*(5+2*(j>1))+10*(:OsE>0)
-:Scanner=t j=0 i++ :OsO=1-:OsO goto6+(i>1)
-:Scanner=t+u i=0 j++ :OsR=1-:OsR goto7+(j>1)-8*(:Os1<1)*(:Rf1<1)
-:Scanner=t+v j=0 i++ :OsC=1-:OsC goto8+(i>1)-9*:Rf1*(:R1>b)
-n=1/(:OsE<1) :Scanner=t+w i=0 j++ goto9-3*(j>1)
-:Scanner=q :OsI=0 sc="\n"
-i=0 j=0 a=65
-cr="Crystal" o="Ore" // language Settings
-// Scanner by Oloneus
-// Original by Jaymuc
-:OsO=0
-:Scanner=sc+"M:"+:OsM-cr-o+"\nV:"+:OsV/c*b+r+"\n" :OsI++
-sc=:Scanner
-n=1/(:OsI<:OsE) goto16
-:OsR=1 :Os1W=1 :Os1C=1 :Os1=1
-sc="\n" j+=1 gotod-d*(:Os1<1)-d*:Rf1*(:R1>b)*(j>59)-d*(j>299)
+//////////////////// No Changes beyond this line /////////////////////
+// Scanner On
+if :ScM!=0 then :ScM=0 end if :OsO!=0 then :OsO=0 end
+goto4+:ScA
+if :OsO!=1 then :OsO=1 end if :Os1!=1 then :Os1=1 end
+:Osc=1 if:OsE!=0 then:OsC=0 :ScM=1 end goto6*:ScA+:ScM
+if :OsO!=0 then :OsO=0 end
+goto8*:ScA
+
+// Scanner 02 - by Oloneus
+// written with VisualStudioCode
+// licensed under MIT
