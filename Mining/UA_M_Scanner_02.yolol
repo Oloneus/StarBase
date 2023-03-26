@@ -1,11 +1,12 @@
 //////////////////// No Changes beyond this line /////////////////////
 // Scanner On
+
 if :ScM!=0 then :ScM=0 end if :OsO!=0 then :OsO=0 end
-goto4+:ScA
-if :OsO!=1 then :OsO=1 end if :Os1!=1 then :Os1=1 end
-:Osc=1 if:OsE!=0 then:OsC=0 :ScM=1 end goto6*:ScA+:ScM
+goto5+:ScA
+if :OsO!=1 then :OsO=1 end
+:Osc=1 if:OsE!=0 then:OsC=0 :ScM=1 end goto7*:ScA+:ScM
 if :OsO!=0 then :OsO=0 end
-goto8*:ScA
+goto9*:ScA
 
 // Scanner 02 - by Oloneus
 // written with VisualStudioCode
