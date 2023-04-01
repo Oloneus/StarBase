@@ -1,9 +1,0 @@
-//////////////////// No Changes beyond this line /////////////////////
-// Transponder
-
-n=1-:iSz if :TrW!=n then :TrW=n end goto4
-
-// Systems Script 01 - by Oloneus
-// WorkerBee Lite
-// written with VisualStudioCode
-// licensed under MIT

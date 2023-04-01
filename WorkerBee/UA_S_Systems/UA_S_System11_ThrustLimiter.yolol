@@ -1,9 +1,0 @@
-//////////////////// No Changes beyond this line /////////////////////
-// Thrust Limiter
-
-t=:turtle if:ThrustLimiter!=t then:ThrustLimiter=t end goto4
-
-// Systems Script 11 - by Oloneus
-// WorkerBee Lite
-// written with VisualStudioCode
-// licensed under MIT

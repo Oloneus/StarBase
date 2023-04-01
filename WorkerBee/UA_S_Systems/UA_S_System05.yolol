@@ -1,8 +1,0 @@
-//////////////////// No Changes beyond this line /////////////////////
-:CrB=2+7*:Booster goto2+(:fcubackward>1)*(:Apr<1)
-:cruise=100 goto2
-
-// Systems Script 05 - by Oloneus
-// WorkerBee / GrumbleBee
-
-// licensed under MIT

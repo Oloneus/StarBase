@@ -1,8 +1,0 @@
-//////////////////// No Changes beyond this line /////////////////////
-f=3000
-q=:gF1<f w=:gF2<f e=:gF3<f r=:gF4<f :mpw=1<(q+w+e+r+2*:sBt) goto3
-
-// mLaser System Script - by Oloneus
-// WorkerBee / GrumbleBee
-
-// licensed under MIT
