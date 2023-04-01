@@ -1,0 +1,20 @@
+:mRfL=1 n=0 m=1000
+n+=1 goto2+(n>5) 
+n=0 
+c=:mRc d=:mRd rl=:mMRl v=20 z=20 s=abs(0+q) goto4+(:mRL>0)+2*i
+q-=180*(:mRL>2.2) i=1 goto4
+//
+:mRfL=0 :mTL=(s+rl)/m*m goto7+(:mLc==:mTL)+v*(:mLa<1)
+:mM2=1 goto10+v*(:mLa<1)
+//
+r=(c*:R1+d)*(:r1<z)+r*(:r1>z) :mTL=s-r goto10+3*:mode+v*(:mLa<1)
+
+
+:mTL=s-rl r=0 goto13-3*(:mode<1)+v*(:mLa<1)
+
+
+// Turret Roll Left Calc
+// by Oloneus - licensed under MIT
+
+// Laser Off
+:mM2=0 :mTL=s i=0 gotov*(2-:lsr-:mLa)

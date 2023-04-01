@@ -1,0 +1,9 @@
+//////////////////// No Changes beyond this line /////////////////////
+//
+t=2500
+sB=:StoredBatteryPower<t if :sbt!=sb then :sbt=sb end goto4
+
+// Systems Script 06 - by Oloneus
+// WorkerBee Lite
+// written with VisualStudioCode
+// licensed under MIT

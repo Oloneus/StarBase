@@ -1,0 +1,9 @@
+//////////////////// No Changes beyond this line /////////////////////
+// PositionLights
+
+if :LampOn!=:PositionLights then :LampOn=:PositionLights end goto4
+
+// Systems Script 02 - by Oloneus
+// WorkerBee Lite
+// written with VisualStudioCode
+// licensed under MIT

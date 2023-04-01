@@ -1,0 +1,20 @@
+h=:duh zp=:dup zn=:dun sz=:dus dz=:dud s=" " g="    " l="\n"
+p="[+]" n="[-]" e="[ ]" dn="[/]" up="[~]"
+op=p opl=g+p on=n onl=g+n oe=e oel=g+e
+t=" NAV  :.\n" idl=t+h+l+g+dn+l+l rbt=t+h+l+g+up+l+l
+:.=rbt+h IF:ISZ THEN:.+=szELSE:.+=dz end
+///////////////////// DELTA UI BY:Oo COMPANY:io //////////////////////
+//                    PLEASE FIRST READ ISAN INTRO: ISAN.to/doc
+//       [+Y]         Y axis == origin_north (+) to origin_south (-)
+//   [-X]>ZZ<[+X]     X axis == origin_east (+) to origin_west (-)
+//       [-Y]         Z axis == OUT+ / IN-   (OUT from & IN to planet)
+//       "SZ"         sz == IN Safezone  !! == NOT IN Safezone
+//////////////////////////////////////////////////////////////////////
+q=:.!="" j=0 IF:z==zzTHENr=idl il=1 GOTO20*qELSEil=0 GOTO14*q END
+q=:.!="" i=0 IF:x==xxTHENx=a i++END IF:y==yyTHENy=b i++END GOTO15*q
+IF:z==zzTHENz=c i++END IFi>2THEN j++ IFj>3THEN GOTO13 END GOTO14 END
+IF:x>xxTHENx=1END IF:y>yyTHENy=1END IF:z>zzTHENz=1END
+r=+t+h IFyTHENr+=opl+lELSEr+=oel+lEND IFxTHENr+=s+oeELSEr+=s+onEND
+a=x b=y c=z IFzTHENr+=zpELSEr+=znEND IFxTHENr+=op+lELSEr+=oe+lEND
+IFyTHENr+=oel+lELSEr+=onl+lEND xx=:x yy=:y zz=:z x=0 y=0 z=0
+q=:.!="" r+=h IF:ISZTHENr+=szELSEr+=dzEND :.=r GOTO14-il*q
