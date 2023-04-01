@@ -1,19 +1,19 @@
-a=10 c=12 d=13 t=50 u=20 v=20 w=0.8 x=:mDl :mLa=0 :aR1+=1*(m<1)
-i=5  h=6 l=0 k=1 n=0 m=1 :lsr=:lsr-:mpw goto4+v*:mpw
-goto14 // Bootup Check
-:Collect=0+:CltrOvrd :mLa=0 j=0 goto4+(:r1<u)+v*(:lsr<1)
-:mLa=1-:aMa goto5+:mM1*:mM2*:mM3+v*(:lsr<1)+v*:mpw
-goto6+(1>:apr)+v*(:lsr<1)
-:FcuGMp=:mGp :Turtle=50 :Collect=1 k=1 n=0 goto9
-goto14 // Laser - by Oloneus - licensed under MIT
-:mR=:mRm :mL=:mLm l=o-o*(:r1<u) j=0 gotoa*(l<h)+c*(l>i)
-:mR=:mRm :mL=:mLm l+=1*(:r1>u) o=1*l goto9+v*(:lsr<1)+v*:mpw
+b=11 c=12 f=15 i=5 h=6 t=50 u=20 v=20 l=0 :aR1+=1*(m<1)
+m=1  x=:mDl :lsr=:lsr-:mpw goto5+v*:mpw
+
+// Bootup Check
+:Collect=0+:CltrOvrd :mLa=0 j=0 goto5+(:r1<u)+v*(:lsr<1)
+:mLa=1-:aMa goto6+:mM1*:mM2*:mM3+v*(:lsr<1)+v*:mpw
+goto8-:apr+v*(:lsr<1)
+:FcuGMp=:mGp :Turtle=50 :Collect=1 gotob
+// UA_M_mLaser - by Oloneus (vsCode)
+// licensed under MIT
+:mR=:mRm l=o-o*(:r1<u) j=0 gotoc*(l<h)+f*(l>i)
+:mL=:mLm l+=1*(:r1>u) o=1*l gotob+v*(:lsr<1)+v*:mpw
+
 // Collector Delay
-:mR=0 :mL=0 j+=1 gotoc-8*(j>x)*(:r1>u)-3*(j<=t)*(:r1<=u)+v*(:lsr<1)
-// Failsafe
-:mL=0
-:mR=0
-:mLa=0
+:mR=0 :mL=0 j+=1 gotof-c*(j>x)*(:r1>u)-4*(j<=t)*(:r1<=u)+v*(:lsr<1)
+
 // Laser Off Check
 :FcuGMp=100 j+=1 goto18+(j>4)
 :Collect=0 :aR1-=1*(:aR1>0) m=0

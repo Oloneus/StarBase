@@ -1,0 +1,12 @@
+//////////////////// No Changes beyond this line /////////////////////
+// TransponderOff
+r=0 g=2
+
+if:TrC!=g then:TrC=g end goto6-:isz
+i=0 if:TrC!=r then:TrC=r end goto6-:isz+(:Transponder AND :isz<1)
+i++ ifi>5 then:Transponder=0end goto6-:isz+(:Transponder AND :isz<1)
+
+// Systems Script 01 - by Oloneus
+// WorkerBee Lite
+// written with VisualStudioCode
+// licensed under MIT

@@ -1,8 +1,8 @@
-A=1e3 n=A pr=0 sp=0 dv=(9.6+2.4*pr)*n so=1-sp o=16e4 e=8*o c=""
-z="origin_" mr=z+"north" br=z+"south" cr=z+"east" z+="west" sm="\nS: " 
+A=1000 n=1000 pr=1 sp=0 dv=(9.6+2.4*pr)*n so=1-sp o=160000 e=8*o c=""
+z="origin_" mr=z+"north" br=z+"south" cr=z+"east" z+="west" sm="\nS: "
 u=e*3/13 l=2*o mm=l*13/19 k=e*3/19 sl="\nsignal lost" x/=so sm=c ss=c 
 rr="ISAN2 :_\n     " xm="\nX: " ym="\nY: " zm="\nZ: " nn=l*13/3 
-ej=16*sp h="Q" pj=14-pr b=0.5 p=1e6 :at=mr :bt=br :ct=cr :dt=z x=0 
+ej=16*sp h="Q" pj=14-pr b=0.5 p=1000000 :at=mr :bt=br :ct=cr :dt=z x=0
 t=p-:a t*=t i=p-:b i*=i g=p-:c g*=g f=p-:d f*=f x/=:a*:b*:c*:d goto14 
 h="M" t=p-:a t*=t er=(t-el)/4 el=t x/=:a :at=br x=8 gotopj//   ISAN 
 i=p-:a i*=i fr=(i-fl)/4 fl=i x/=:a :at=cr x=9 gotopj// From Collective
@@ -18,5 +18,3 @@ m=(r*r+j*j+v*v)^b ss=m/dv*A tu=w uv=uu vt=vv w=0 uu=0 vv=0 ej=16 gotox
 st=:_!=c :_=rr+"\nSpeed can't run on basic chip. set sp=0" goto 18*st
 //                      Alignment coming soon! Currently in beta test.
 st=:_!=c :_=rr+"\n\n   ISAN2\n  OFFLINE" goto 20*st
-
-// <-------------- this line is 70 characters long ------------------>

@@ -1,0 +1,10 @@
+//////////////////// No Changes beyond this line /////////////////////
+// MPw
+f=3e3
+q=:gF1<f w=:gF2<f e=:gF3<f r=:gF4<f mp=1<(q+w+e+r+2*:sBt)
+if :mpw!=mp then :mpw=mp end goto4
+
+// Systems Script 07 - by Oloneus
+// WorkerBee Lite
+// written with VisualStudioCode
+// licensed under MIT

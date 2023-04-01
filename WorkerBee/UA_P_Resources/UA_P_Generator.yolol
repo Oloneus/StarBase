@@ -1,0 +1,10 @@
+gv=20 // (10-90) the lower gv, the more aggressive the generator
+//////////////////// No Changes beyond this line /////////////////////
+t=1e4 c=100 btq=9900
+:GenReset=0
+
+bt=:StoredBatteryPower f=(t-bt)/gv f=f/c*c f=f+:gdv*:lsr
+:Fr01=f :Fr02=f :Fr03=f*(bt<btq) :Fr04=f*(bt<btq) goto6-6*:GenReset
+
+// Generator by Oloneus
+// licensed under MIT

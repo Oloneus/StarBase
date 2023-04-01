@@ -1,0 +1,10 @@
+//////////////////// No Changes beyond this line /////////////////////
+// Booster
+
+if :FcuFw!=0 then :FcuFw=0 end goto4+:Booster*(:Turtle>50)
+if :FcuFw!=:FcuForward then :FcuFw=:FcuForward end goto4+:Booster
+
+// Systems Script 15 - by Oloneus
+// WorkerBee Lite
+// written with VisualStudioCode
+// licensed under MIT

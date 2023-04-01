@@ -1,0 +1,10 @@
+//////////////////// No Changes beyond this line /////////////////////
+// Approach Support Skript
+a=10 c=12 j=4
+i=0 if :apm!=a then :apm=a end gotoj+(:R1>:apD)
+i++ if i>9 AND :apm!=c then :apm=c end goto4+(:R1>:apD)
+
+// Approach System 02 - by Oloneus
+// WorkerBee Lite
+// written with VisualStudioCode
+// licensed under MIT

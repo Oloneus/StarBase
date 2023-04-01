@@ -1,0 +1,9 @@
+//////////////////// No Changes beyond this line /////////////////////
+// BoosterCancel
+
+b=:booster AND :turtle>50 if :booster!=b then :booster=b end goto4
+
+// Systems Script 14 - by Oloneus
+// WorkerBee Lite
+// written with VisualStudioCode
+// licensed under MIT 
