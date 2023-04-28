@@ -1,0 +1,11 @@
+
+ifm!=:c1 thenm=:c1 :x=:x1 :y=:y1 :z=:z1 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c2 thenm=:c2 :x=:x2 :y=:y2 :z=:z2 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c3 thenm=:c3 :x=:x3 :y=:y3 :z=:z3 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c4 thenm=:c4 :x=:x4 :y=:y4 :z=:z4 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c5 thenm=:c5 :x=:x5 :y=:y5 :z=:z5 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c6 thenm=:c6 :x=:x6 :y=:y6 :z=:z6 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c7 thenm=:c7 :x=:x7 :y=:y7 :z=:z7 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c8 thenm=:c8 :x=:x8 :y=:y8 :z=:z8 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c9 thenm=:c9 :x=:x9 :y=:y9 :z=:z9 :wsx=0 :wsy=0 :wsz=0endgoto:ws
+ifm!=:c0 thenm=:c0 :x=:x0 :y=:y0 :z=:z0 :wsx=0 :wsy=0 :wsz=0endgoto:ws

@@ -1,0 +1,4 @@
+n=1e6 t=1e4 m=1e3 goto2*:ex+3*:ey+4*:ez
+i=:a ifi>n then:a=i/t*m end goto2*:ex
+i=:b ifi>n then:b=i/t*m end goto3*:ey
+i=:c ifi>n then:c=i/t*m end goto4*:ez

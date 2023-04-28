@@ -1,0 +1,35 @@
+a=" " b=a+a c=a+b d=b+b e=b+c f=e+e g=f+f h=g+e i=h+h+h+h+h j=i+i
+k=e+h l=g+g m=" Edit:  " n="loading Editmode" :ex=0 :ey=0 :ez=0 :em=0
+x=d+"x: " y=d+"y: " z=d+"z: " q=" <--      " :e=j
+o="Store as Waypoint:  " p=e+d+"     [Store]"
+if:bs then:el=1 :em=1 :e=d+n+(j-g) :en=:ws-1 end goto5+11*:bs
+:e=m+:ew+q+k+x+:ea+f+y+:eb+f+z+:ec+f+i r=1 goto:bs*(6+:bd)
+ifr then:em=0 :ex=1 r=0 goto8end ifs then:ex=0 :em=1 s=0 goto6end
+:e=m+:ew+l+x+:ea+q+y+:eb+f+z+:ec+f+i s=1 goto:bs*(8+:bd-:bu)
+ifs then:ex=0 :ey=1 s=0 goto10end ifr then:ey=0 :ex=1 r=0 goto8end
+:e=m+:ew+l+x+:ea+f+y+:eb+q+z+:ec+f+i r=1 goto:bs*(10+:bd-:bu)
+ifr then:ey=0 :ez=1 r=0 goto12end ifs then:ez=0 :ey=1 s=0 goto10end
+:e=m+:ew+l+x+:ea+f+y+:eb+f+z+:ec+q+i s=1 ed=:e goto:bs*(12+:bd-:bu)
+ifs then:ez=0 :em=1 s=0 goto14end ifr then:em=0 :ez=1 r=0 goto12end
+:e=ed-q+f-i+o+:ew+p+h+h+h+e+b r=1 goto:bs*(14+:bh-:bu)
+:em=0 :es=1 :bs=0 goto1
+zz="~       " wz="~00"
+w=wz+:en vv=w w-- w-- :ew=vv-w
+w=zz+:a vv=w w-- w-- w-- w-- w-- w-- w-- w-- :ea=vv-w
+w=zz+:b vv=w w-- w-- w-- w-- w-- w-- w-- w-- :eb=vv-w
+w=zz+:c vv=w w-- w-- w-- w-- w-- w-- w-- w-- :ec=vv-w goto6
+
+//------------------This Line is 70 characters long------------------|
+//
+// 1234loading Editmode12345
+// ----5---10---15---20---25
+// _Edit:__01_<--___________ START
+// ----5---10---15---20---25
+// ____x:_-1234567_<--______
+// ____y:_-1234567_<--______
+// ____z:_-1234567_<--______
+// ----5---10---15---20---25
+// Store as Waypoint:__01__
+// ____________Yes?__[Enter]
+// ____________No?___[Del]__
+// ----5---10---15---20---25

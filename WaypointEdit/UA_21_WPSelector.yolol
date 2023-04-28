@@ -1,0 +1,4 @@
+p=1 q=5 
+goto2+:bs
+m=m+:bn*(m<q)-:bp*(m>p) if:em!=m then:em=m end goto3*:bs+(:bn OR :bp)
+goto3*:bs+(:bn OR :bp)

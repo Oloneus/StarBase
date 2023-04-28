@@ -1,0 +1,11 @@
+m="" a=10
+m=:x1+:y1+:z1+:x1*:y1+:y1*:z1+:z1*:x1+1 if:c1!=m then:c1=m end goto:ws
+m=:x2+:y2+:z2+:x2*:y2+:y2*:z2+:z2*:x2+2 if:c2!=m then:c2=m end goto:ws
+m=:x3+:y3+:z3+:x3*:y3+:y3*:z3+:z3*:x3+3 if:c3!=m then:c3=m end goto:ws
+m=:x4+:y4+:z4+:x4*:y4+:y4*:z4+:z4*:x4+4 if:c4!=m then:c4=m end goto:ws
+m=:x5+:y5+:z5+:x5*:y5+:y5*:z5+:z5*:x5+5 if:c5!=m then:c5=m end goto:ws
+m=:x6+:y6+:z6+:x6*:y6+:y6*:z6+:z6*:x6+6 if:c6!=m then:c6=m end goto:ws
+m=:x7+:y7+:z7+:x7*:y7+:y7*:z7+:z7*:x7+7 if:c7!=m then:c7=m end goto:ws
+m=:x8+:y8+:z8+:x8*:y8+:y8*:z8+:z8*:x8+8 if:c8!=m then:c8=m end goto:ws
+m=:x9+:y9+:z9+:x9*:y9+:y9*:z9+:z9*:x9+9 if:c9!=m then:c9=m end goto:ws
+m=:x0+:y0+:z0+:x0*:y0+:y0*:z0+:z0*:x0+a if:c0!=m then:c0=m end goto:ws
