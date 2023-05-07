@@ -1,0 +1,2 @@
+j=1 goto1+:nav
+d=j*(:dtt<2e3)*(:fcuForward>0) ifd then:FcuForward=0 j=0end goto1+:nav

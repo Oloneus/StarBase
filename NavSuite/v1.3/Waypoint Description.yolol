@@ -1,0 +1,25 @@
+:des="String20CharsLong123" // Waypoint Description
+:num="123"                  // Waypoint Number
+:wpx="-123456789"           // Waypoint X 10 string max, 9digits
+:wpy="-123456789"           // Waypoint Y 10 string max, 9digits
+:wpz="-123456789"           // Waypoint Z 10 string max, 9digits
+
+div1=" #"                   // divider 1
+div2="~         "             // divider 2, ~ 7space
+div3="      ~"              // divider 3, 6space ~
+div4=div3+div2
+
+:w0af=:des+div1+:num+div2+:wpx+div4+:wpy+div4+:wpz+div3
+
+result="String20CharsLong123 #123~         -1234567      ~~         -1234567      ~~         -1234567      ~"
+result="               EMPTY #001~                0      ~~                0      ~~                0      ~"
+
+// >> on display, it should look like this:
+//
+// String20CharsLong123 #123
+// ~       -123456789      ~
+// ~       -123456789      ~
+// ~       -123456789      ~
+
+Display get's overlayed "X:" "Y:" "Z:" on another layer, so they're on a fixed position and different color
+total waypoint length= "100 chars"

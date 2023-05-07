@@ -1,0 +1,5 @@
+nn=0 goto2-:esn
+a=:s goto2+:esn
+s="98743" i=0 o=0 j=-1
+c=a c-=a-- d=5*(c>4)+2*(s>(s-c)) d+=c>d d+=c>d o+=d*10^j++ goto4+c<0
+v=1 if c=="-" then v=-1 end :b=o*v ++:est goto1
