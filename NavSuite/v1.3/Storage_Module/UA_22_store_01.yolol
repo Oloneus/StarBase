@@ -9,7 +9,7 @@ goto1//ifr==2then:w12=:i end ifr>2then:w13=:i end ifr<2then:w14=:i end
 goto1//ifr==2then:w15=:i end ifr>2then:w16=:i end ifr<2then:w17=:i end
 goto1//ifr==2then:w18=:i end ifr>2then:w19=:i end ifr<2then:w1a=:i end
 goto1//ifr==2then:w1b=:i end ifr>2then:w1c=:i end ifr<2then:w1d=:i end
-ifr==2then:w1e=:i end ifr>2then:w1f=:i end ifr<2then:w20=:i end goto1
+ifr<2then:w20=:i end goto1//ifr==2then:w1e=:i end ifr>2then:w1f=:i end
 ifr==2then:w21=:i end ifr>2then:w22=:i end ifr<2then:w23=:i end goto1
 ifr==2then:w24=:i end ifr>2then:w25=:i end ifr<2then:w26=:i end goto1
 ifr==2then:w27=:i end ifr>2then:w28=:i end ifr<2then:w29=:i end goto1
