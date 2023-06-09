@@ -1,0 +1,2 @@
+p=-5 q=5 goto1+:n
+m=(p<:ty)*(:ty>q)*(p<:tp)*(:tp>q) ifm then:Fwd=c end goto1+:n

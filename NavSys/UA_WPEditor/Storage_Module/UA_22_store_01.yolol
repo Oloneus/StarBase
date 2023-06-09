@@ -1,0 +1,20 @@
+m=:wn r=m%3+1 n=:ws*(1+(m+2)%60/3)*(m>0)*(m<58) goton
+goto1//ifr==2then:w00=:i end ifr>2then:w01=:i end ifr<2then:w02=:i end
+goto1//ifr==2then:w03=:i end ifr>2then:w04=:i end ifr<2then:w05=:i end
+goto1//ifr==2then:w06=:i end ifr>2then:w07=:i end ifr<2then:w08=:i end
+goto1//ifr==2then:w09=:i end ifr>2then:w0a=:i end ifr<2then:w0b=:i end
+goto1//ifr==2then:w0c=:i end ifr>2then:w0d=:i end ifr<2then:w0e=:i end 
+goto1//ifr==2then:w0f=:i end ifr>2then:w10=:i end ifr<2then:w11=:i end
+goto1//ifr==2then:w12=:i end ifr>2then:w13=:i end ifr<2then:w14=:i end
+goto1//ifr==2then:w15=:i end ifr>2then:w16=:i end ifr<2then:w17=:i end
+goto1//ifr==2then:w18=:i end ifr>2then:w19=:i end ifr<2then:w1a=:i end
+goto1//ifr==2then:w1b=:i end ifr>2then:w1c=:i end ifr<2then:w1d=:i end
+ifr<2then:w20=:i end goto1//ifr==2then:w1e=:i end ifr>2then:w1f=:i end
+ifr==2then:w21=:i end ifr>2then:w22=:i end ifr<2then:w23=:i end goto1
+ifr==2then:w24=:i end ifr>2then:w25=:i end ifr<2then:w26=:i end goto1
+ifr==2then:w27=:i end ifr>2then:w28=:i end ifr<2then:w29=:i end goto1
+ifr==2then:w2a=:i end ifr>2then:w2b=:i end ifr<2then:w2c=:i end goto1
+ifr==2then:w2d=:i end ifr>2then:w2e=:i end ifr<2then:w2f=:i end goto1
+ifr==2then:w30=:i end ifr>2then:w31=:i end ifr<2then:w32=:i end goto1
+ifr==2then:w33=:i end ifr>2then:w34=:i end ifr<2then:w35=:i end goto1
+ifr==2then:w36=:i end ifr>2then:w37=:i end ifr<2then:w38=:i end goto1

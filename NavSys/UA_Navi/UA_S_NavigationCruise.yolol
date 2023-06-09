@@ -1,0 +1,2 @@
+c=100 i=1 goto1+:nav
+j=i*(:FcuForward==c) ifj then:Cruise=0 :avd=1 i=0end goto1+:nav

@@ -1,0 +1,4 @@
+n=1 goto(2*:ex+3*:ey+4*:ez)*(:bm<1)
+m=:x*(1-2*:bm) if:x!=m then:x=m n=0 end goto2*:ex*n
+m=:y*(1-2*:bm) if:y!=m then:y=m n=0 end goto3*:ey*n
+m=:z*(1-2*:bm) if:z!=m then:z=m n=0 end goto4*:ez*n

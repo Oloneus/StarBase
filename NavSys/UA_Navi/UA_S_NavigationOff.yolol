@@ -1,0 +1,2 @@
+goto1+:nav
+d=(:dtt<1e3) ifd then:nav=0 :cruise=100end goto1+:nav
