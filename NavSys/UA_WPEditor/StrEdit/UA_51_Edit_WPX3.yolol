@@ -1,0 +1,20 @@
+n2="81" a="T2" b="U3" c="V4" za=n2+a+b+c
+n3="91" d="W2" e="X3" f="Y4" k="Z5" zd=n3+d+e+f+k
+n4="01" g="+2" h="-3" i="/4" l="#5" zg=n4+g+h+i+l
+j=0 n=1 z="~                    " --:wpx3 :wpnw=0
+w=:ed goto5+3*:wpxn
+//
+//
+w+=za-n-a-b-c-n2 u=z+w v=u u-- u-- u-- u-- u-- u-- u-- u-- 
+u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- w=v-u :ed=w
+j++ if:8 thenj=0 n+=1*((n<4)-3*(n>3)) w-- end goto4+6*(j<5)-2*:8
+w+=zd-n-d-e-f-k-n3 u=z+w v=u u-- u-- u-- u-- u-- u-- u-- u-- 
+u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- w=v-u :ed=w
+j++ if:9 thenj=0 n+=1*((n<5)-4*(n>4)) w-- end goto4+9*(j<5)-2*:9
+w+=zg-n-g-h-i-l-n4 u=z+w v=u u-- u-- u-- u-- u-- u-- u-- u-- 
+u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- u-- w=v-u :ed=w
+j++ if:0 thenj=0 n+=1*((n<5)-4*(n>4)) w-- end goto4+12*(j<5)-2*:0
+
+"         ORIGIN - 30030    8356  -58735   15266"
+"      MARKKA STATION031    4079 -148956  309174"
+"        ELYSIUM GATE032    2760    1660  -13100"

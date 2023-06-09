@@ -1,0 +1,3 @@
+n=0 m=2e3 o=1e3 c=50 goto1+:nav
+d=(:dtt<m)*(:fcuForward>0) ifd then:FcuForward=c n=1end goto1+:nav+n
+d=(:dtt<o)*(:fcuForward>0) ifd then:FcuForward=0end goto1+2*:nav

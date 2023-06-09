@@ -1,0 +1,14 @@
+z="~        " a=10 b=11 p=14 q=15 goto1+:ez
+w=:z goto1+:ez+:1+2*:2+3*:3+4*:4+5*:5+6*:6+7*:7+8*:8+9*:9+a*:0+b*:br
+n=w<0 :z=w*10+1*(1-2*n) gotop
+n=w<0 :z=w*10+2*(1-2*n) gotop
+n=w<0 :z=w*10+3*(1-2*n) gotop
+n=w<0 :z=w*10+4*(1-2*n) gotop
+n=w<0 :z=w*10+5*(1-2*n) gotop
+n=w<0 :z=w*10+6*(1-2*n) gotop
+n=w<0 :z=w*10+7*(1-2*n) gotop
+n=w<0 :z=w*10+8*(1-2*n) gotop
+n=w<0 :z=w*10+9*(1-2*n) gotop
+n=w<0 :z=w*10 gotop
+n=w<0 :z=w/1e4*1e3 gotop
+u=z+:z vv=u u-- u-- u-- u-- u-- u-- u-- u-- :sz=vv-u goto1+:ez
