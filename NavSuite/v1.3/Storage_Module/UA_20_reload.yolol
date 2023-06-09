@@ -1,8 +1,0 @@
-p=0 q=0 j=0 i=0 o=0 :o=0 :wn=1 :wl=1
-if:o!=0then j=1 :wl=0 end goto2+j
-goto3+:wl+2*:ws
-:wl=0 goto3
-:ws=0 :wl=1 goto3
-
-"            NAME: 01001   55443   -2211    1234"
-"        HALLO WELT !001   12345   -1234    4321"

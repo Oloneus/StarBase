@@ -1,4 +1,0 @@
-:wn=1 :wl=1 c=5 d=-c m=1 p=1 q=256
-a=:bn b=:bp j+=a*(j<c)-b*(j>d) j=j*a+j*b goto2+(a OR b)+2*:ws
-m+=j ifm>q thenm=q end ifm<p thenm=p end :wn=m :wl=1 goto2
-ifm!=:n thenm=:n end goto2+2*:ws

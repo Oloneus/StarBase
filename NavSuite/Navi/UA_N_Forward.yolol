@@ -1,2 +1,0 @@
-m=1e3
-d=:dtt/m*m if:DistanceToTarget!=d then :DistanceToTarget=d end goto2

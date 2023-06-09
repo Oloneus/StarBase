@@ -1,2 +1,0 @@
-j=1 goto1+:nav
-ifj then:Cruise=0 j=0end goto1+:nav
