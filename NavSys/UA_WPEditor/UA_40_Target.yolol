@@ -1,7 +1,0 @@
-z="~        "
-a=z+:o b=a a-- a-- a-- a-- a-- a-- a-- a-- :u=b-a
-a=z+:p b=a a-- a-- a-- a-- a-- a-- a-- a-- :v=b-a
-a=z+:q b=a a-- a-- a-- a-- a-- a-- a-- a-- :w=b-a
-n=:be*(:esn<1) ifn then:esn=1 :u=:r :v=:s :w=:t end goto5+n
-n=:est==4 ifn then:o=:a :p=:b :q=:c end goto6+n
-:wtx=0 :wty=0 :wtz=0 :esn=0 goto5

@@ -1,2 +1,0 @@
-a=180 goto1+:n
-x=:x<0 :ty=a*x*(1-2*(:y<0))+(1-2*x)*asin :y goto1+:n

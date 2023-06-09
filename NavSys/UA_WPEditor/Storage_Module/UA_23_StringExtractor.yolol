@@ -1,9 +1,0 @@
-:w=:o goto++:q%6
-:v=:w :w-- :w-- :w-- :w-- :w-- :w-- :w-- :w-- :wz=:v-:w goto++:q%6
-:v=:w :w-- :w-- :w-- :w-- :w-- :w-- :w-- :w-- :wY=:v-:w goto++:q%6
-:v=:w :w-- :w-- :w-- :w-- :w-- :w-- :w-- :w-- :wX=:v-:w goto++:q%6
-:v=:w :w-- :w-- :w-- :ww=:v-:w :wd=:w goto++:q%6
-
-// "               EMPTY031       0       0       0"
-// "      MARKKA STATION031    4079 -148956  309174"
-// "        ELYSIUM GATE032    2760    1660  -13100"

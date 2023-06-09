@@ -1,4 +1,0 @@
-n=1e8-1 t=1e4 m=1e3 goto2*:ex+3*:ey+4*:ez
-i=:x ifi>n then:x=i/t*m end goto2*:ex
-i=:y ifi>n then:y=i/t*m end goto3*:ey
-i=:z ifi>n then:z=i/t*m end goto4*:ez

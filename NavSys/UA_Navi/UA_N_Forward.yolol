@@ -1,3 +1,0 @@
-p=-5 q=5 c=100 j=1 i=0 goto1+:n
-i++ goto1+:n*(1+i>5)
-m=j*(p<:ty)*(:ty<q)*(p<:tp)*(:tp<q) ifm then:Fw=c j=0end goto1+2*:n
