@@ -1,0 +1,3 @@
+a=40 r=20 s=22 t=22 b="                          " c="   "
+:ls=3 :lh=a :lx=5 :ly=r :li=:id+b :lx=s :ly=t :li=:in goto2+:str
+:ls=3 :lh=a :lx=5 :ly=r :li=b+b :lx=s :ly=t :li=c goto2+:str

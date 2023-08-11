@@ -1,0 +1,2 @@
+a=40
+:ls=3 :lh=a :lx=1 :ly=1 :li=:e goto2

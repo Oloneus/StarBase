@@ -1,0 +1,3 @@
+a=40 x=4 s="        "
+:ls=3 :lh=a :lx=x :ly=23 :li=:u :ly=24 :li=:v :ly=25 :li=:w goto2+:str
+:ls=3 :lh=a :lx=x :ly=23 :li=s :ly=24 :li=s :ly=25 :li=s goto2+:str

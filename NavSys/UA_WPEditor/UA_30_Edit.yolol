@@ -1,0 +1,67 @@
+a=" " b=a+a c=a+b d=b+b e=b+c f=e+e g=f+f h=g+e i=h+h+h+h+h j=i+i u=12
+l=g+g-a m=j-h-h+" Edit:  " :ex=0 :ey=0 :ez=0 :en=0 :ew=0 :e=j+j-h t=10
+x=d+"x: " y=d+"y: " z=d+"z: " q=" <-- " n="loading Editmode" v=14
+o="Store as Waypoint:  " p=e+d+"     [Store]" fh=f+h fz=f+z fy=f+y
+if:bs then:e=j-h-h+d+n+(j-g)+h i=i-h :ed=:id end goto5+14*:bs
+:e=m+:sn+q+e+d+h+x+:sx+f+y+:sy+f+z+:sz+fh+:ed+e+i r=1 goto:bs*(6+:bd)
+ifr then:en=0 :ex=1 r=0 goto8end ifs then:ex=0 :en=1 s=0 goto6end
+:e=m+:sn+l+x+:sx+q+e+y+:sy+fz+:sz+fh+:ed+e+i s=1 goto:bs*(8+:bd-:bu)
+ifs then:ex=0 :ey=1 s=0 goto10end ifr then:ey=0 :ex=1 r=0 goto8end
+:e=m+:sn+l+x+:sx+fy+:sy+q+e+z+:sz+fh+:ed+e+i r=1 goto:bs*(t+:bd-:bu)
+ifr then:ey=0 :ez=1 r=0 goto12end ifs then:ez=0 :ey=1 s=0 gotot end
+:e=m+:sn+l+x+:sx+fy+:sy+fz+:sz+q+e+h+:ed+e+i s=1 goto:bs*(u+:bd-:bu)
+ifs then:ez=0 :ew=2 s=0 goto14end ifr then:ew=0 :ez=1 r=0 gotou end
+:e=m+:sn+l+x+:sx+fy+:sy+fz+:sz+f+h+:ed+q+i r=1 goto:bs*(v+:bd-:bu)
+ifr then:ew=0 :en=1 w=:e r=0 goto16end ifsthen:en=0 :ew=2 s=0 gotovend
+:e=w-q+e-i+h+o+:sn+e+p+a+h s=1 goto:bs*(16+:bh-:bu)
+:en=0 :wn=:n+(:n<1) :wo=:ed+:sn+:sx+:sy+:sz :ws=1 :bs=0 goto1
+
+if:esn<1 then:esn=1 nn=1 :sn=:in :sx=:r :sy=:s :sz=:t end goto19+nn
+if:est==4 then:esn=0 :en=1 :n=:m :x=:a :y=:b :z=:c nn=0end goto6+14*nn
+
+// "               EMPTY001       0       0       0"
+// "         ORIGIN - 01001   -1514  -58557   14605"
+// "         ORIGIN - 02002  -12356  -53133    9482"
+// "         ORIGIN - 03003  -21163  -48710    9735"
+// "         ORIGIN - 04004  -30412  -39176    4620"
+// "         ORIGIN - 05005  -35894  -28937    -569"
+// "         ORIGIN - 06006  -40449  -19201   -5273"
+// "         ORIGIN - 07007  -45639   -9224   -5593"
+// "         ORIGIN - 08008  -45676     511   -5543"
+// "         ORIGIN - 09009  -45810   10676   -5501"
+// "         ORIGIN - 10010  -41736   22001   -5152"
+// "         ORIGIN - 11011  -37458   30822    -743"
+// "         ORIGIN - 12012  -32408   40743    4281"
+// "         ORIGIN - 13013  -22508   50948    9390"
+// "         ORIGIN - 14014  -12627   56072    9548"
+// "         ORIGIN - 15015   -2299   61232   14458"
+// "         ORIGIN - 16016    7554   61302   14522"
+// "         ORIGIN - 17017   17836   56855   10092"
+// "         ORIGIN - 18018   28872   51332    9665"
+// "         ORIGIN - 19019   38334   42004    4963"
+// "         ORIGIN - 20020   43363   32331      81"
+// "         ORIGIN - 21021   48612   22216   -5050"
+// "         ORIGIN - 22022   53755   11921   -5458"
+// "         ORIGIN - 23023   53982    1680   -5390"
+// "         ORIGIN - 24024   53948   -8049   -5410"
+// "         ORIGIN - 25025   48380  -18037   -5330"
+// "         ORIGIN - 26026   44005  -28331    -466"
+// "         ORIGIN - 27027   38773  -38244    4672"
+// "         ORIGIN - 28028   28909  -48311    9594"
+// "         ORIGIN - 29029   18452  -53450    9642"
+// "         ORIGIN - 30030    8356  -58735   15266"
+
+//------------------This Line is 70 characters long------------------|
+//
+// 1234loading Editmode12345
+// ----5---10---15---20---25
+// _Edit:__01_<--___________ START
+// ----5---10---15---20---25
+// ____x:_-1234567_<--______
+// ____y:_-1234567_<--______
+// ____z:_-1234567_<--______
+// ----5---10---15---20---25
+// Store as Waypoint:__01__
+// ____________Yes?__[Enter]
+// ____________No?___[Del]__
+// ----5---10---15---20---25

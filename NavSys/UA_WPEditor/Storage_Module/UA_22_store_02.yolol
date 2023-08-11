@@ -1,0 +1,20 @@
+m=:wn-57  r=m%3+1 n=:ws*(1+(m+2)%60/3)*(m>0)*(m<58) goton
+ifr==2then:w39=:i end ifr>2then:w3a=:i end ifr<2then:w3b=:i end goto1
+ifr==2then:w3c=:i end ifr>2then:w3d=:i end ifr<2then:w3e=:i end goto1
+ifr==2then:w3f=:i end ifr>2then:w40=:i end ifr<2then:w41=:i end goto1
+ifr==2then:w42=:i end ifr>2then:w43=:i end ifr<2then:w44=:i end goto1
+ifr==2then:w45=:i end ifr>2then:w46=:i end ifr<2then:w47=:i end goto1
+ifr==2then:w48=:i end ifr>2then:w49=:i end ifr<2then:w4a=:i end goto1
+ifr==2then:w4b=:i end ifr>2then:w4c=:i end ifr<2then:w4d=:i end goto1
+ifr==2then:w4e=:i end ifr>2then:w4f=:i end ifr<2then:w50=:i end goto1
+ifr==2then:w51=:i end ifr>2then:w52=:i end ifr<2then:w53=:i end goto1
+ifr==2then:w54=:i end ifr>2then:w55=:i end ifr<2then:w56=:i end goto1
+ifr==2then:w57=:i end ifr>2then:w58=:i end ifr<2then:w59=:i end goto1
+ifr==2then:w5a=:i end ifr>2then:w5b=:i end ifr<2then:w5c=:i end goto1
+ifr==2then:w5d=:i end ifr>2then:w5e=:i end ifr<2then:w5f=:i end goto1
+ifr==2then:w60=:i end ifr>2then:w61=:i end ifr<2then:w62=:i end goto1
+ifr==2then:w63=:i end ifr>2then:w64=:i end ifr<2then:w65=:i end goto1
+ifr==2then:w66=:i end ifr>2then:w67=:i end ifr<2then:w68=:i end goto1
+ifr==2then:w69=:i end ifr>2then:w6a=:i end ifr<2then:w6b=:i end goto1
+ifr==2then:w6c=:i end ifr>2then:w6d=:i end ifr<2then:w6e=:i end goto1
+ifr==2then:w6f=:i end ifr>2then:w70=:i end ifr<2then:w71=:i end goto1

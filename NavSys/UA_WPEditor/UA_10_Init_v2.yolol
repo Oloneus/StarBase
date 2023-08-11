@@ -1,0 +1,30 @@
+:MoveCursor=0 :ShowCursor=0 :lx=1 :ly=1 :ls=0 :lw=-1 n=0 :str=0
+:lc=1 ++:ls ++n :init=0 goto2+n>2
+a=" " b=a+a c=a+b d=b+b e=a+d f=e+e g=f+f+e h=g+g+g+g+g h=h+h+h
+l="|        NavSYS         |" m="|    Waypoint Editor    |" j=230
+n="|                       |" o="|        by Oloneus#5521|" k=176
+p="|     Str2Num - Azurethi|" q="| CompassV2 - Firestar99|"
+s="|"  t="-----" t=t+t+t+t+t v="Number:" w="Target:" i=f+b+s+f+b
+x="x:"+f+a+"x:"+d+e+a y="y:"+f+a+"y:"+d+e+a z="z:"+f+a+"z:"+d+e+a
+:ls=1 :lh=j :lx=1 :ly=1 :li=l :ly=2 :li=m :ly=3 :li=n :ly=4 :li=o
+:ls=1 :lh=j :lx=1 :ly=5 :li=t :ly=6 :li=h :ly=21 :li=t
+:ls=1 :lh=j :lx=1 :ly=22 :li=i :ly=23 :li=i :ly=24 :li=i :ly=25 :li=i
+:ls=2 :lh=k :ly=22 :lx=1 :li=w :lx=14 :li=v
+:ls=2 :lh=k :lx=1 :ly=23 :li=x :ly=24 :li=y :ly=25 :li=z
+if:init!=1 then:init=1 :lw=0 end ii=0
+ii++ goto(15+(ii==50)+2*(ii==100)-6*(ii==150))*:init
+:ls=1 :lh=j :lx=1 :ly=4 :li=p ii++ goto15
+:ls=1 :lh=j :lx=1 :ly=4 :li=q ii++ goto15
+
+----5----0----5----0----5
+|        NavSYS         |
+|    Waypoint Editor    |
+|                       |
+|        by Oloneus#5521|
+-------------------------
+|     Str2Num - Azurethi|
+| CompassV2 - Firestar99|
+
+"               EMPTY033       0       0       0"
+"    WP - FREIHAFEN 1033  271450    1185   -4839"
+"         FREIHAFEN 1034  305563    1194   33104"

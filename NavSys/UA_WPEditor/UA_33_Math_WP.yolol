@@ -1,0 +1,14 @@
+z="~   " a=10 b=11 p=14 q=15 t=1e4 m=1e3 goto1+:en
+w=:n goto1+:en+:1+2*:2+3*:3+4*:4+5*:5+6*:6+7*:7+8*:8+9*:9+a*:0+b*:br
+w=w*a+1 gotop
+w=w*a+2 gotop
+w=w*a+3 gotop
+w=w*a+4 gotop
+w=w*a+5 gotop
+w=w*a+6 gotop
+w=w*a+7 gotop
+w=w*a+8 gotop
+w=w*a+9 gotop
+w=w*a+0 gotop
+w=W/t*m gotop
+ifw>256 thenw=256 end :n=w u=z+w vv=u u-- u-- u-- :sn=vv-u goto1+:en
